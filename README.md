@@ -1,52 +1,52 @@
 # Bili-Blocked
 
->   眼不见心不烦，根据关键信息屏蔽哔哩哔哩上某些视频的信息
+> Out of sight, out of mind. Block certain video information on Bilibili based on key details.
 
--   原仓库，[ZanwingMak/bilibili-out-of-sight-out-of-mind](https://github.com/ZanwingMak/bilibili-out-of-sight-out-of-mind.git)
+Original repository: [ZanwingMak/bilibili-out-of-sight-out-of-mind](https://github.com/ZanwingMak/bilibili-out-of-sight-out-of-mind.git)
 
-## 需求
+## Requirements
 
--   修复原仓库实现的视频屏蔽功能，修改屏蔽的方式为 **追加到浏览器右键**
+- Fix the video blocking functionality implemented in the original repository, modify the blocking method to **append to the browser context menu**
+
+    - Hover over a video, right-click to block the user (including all videos from that user), block the video (only that video, not the user).
+    - Hover over a name
+        - Block this uploader
+        - (In the comment section) Block the commenter
     
-    -   移动到某个视频，右键屏蔽用户（包含该视频和该用户所有视频）、屏蔽视频（仅该视频，不屏蔽用户）
-    -   移动到某个名字
-        -   屏蔽这个 up
-        -   （评论区）屏蔽这个评论发起人
-    
-    -   指定屏蔽理由，或者 default
-    -   遇到被屏蔽的内容，当鼠标移过去时，显示用户、屏蔽理由
--   官方的黑名单有上限，这边手动添加用户黑名单
-    -   弹幕：直接删除；
-    -   视频：按原仓库形式替换封面和文本；
-    -   评论区：替换文本；
--   关于关键词相关存储
-    -   需要 server 服务端登录？
-    -   插件用户数据区自己存储？
--   相关页面（适配新版？）
-    -   主页
-    -   搜索页
-    -   单个视频的播放页，包括视频播放完成后的推荐视频
+    - Specify the blocking reason or use the default.
+    - When encountering blocked content, display user and blocking reason when the mouse hovers over it.
+- Official blacklists have limits, manually add users to the blacklist.
+    - Danmaku: Delete directly.
+    - Video: Replace cover and text as per the original repository.
+    - Comment section: Replace text.
+- Regarding keyword-related storage
+    - Does it require server-side login?
+    - Does the plugin user data area store it independently?
+- Related pages (Adapt to the new version?)
+    - Homepage
+    - Search page
+    - Individual video playback page, including recommended videos after playback.
 
-## 预期参考
+## Expected Reference
 
-![](https://tuchuang.laji.blog/imgs/2020/08/211821308a0cafd6.png)
+![Reference Image 1](https://tuchuang.laji.blog/imgs/2020/08/211821308a0cafd6.png)
 
 ---
 
-![](https://tuchuang.laji.blog/imgs/2020/08/1d13c6ae5c040461.png)
+![Reference Image 2](https://tuchuang.laji.blog/imgs/2020/08/1d13c6ae5c040461.png)
 
-## 预计效果
+## Expected Outcome
 
-![](https://tuchuang.laji.blog/imgs/2020/08/c88071e4382d0388.png)
-
----
-
-![](https://tuchuang.laji.blog/imgs/2020/08/a0303b7c587d8c82.png)
+![Expected Effect 1](https://tuchuang.laji.blog/imgs/2020/08/c88071e4382d0388.png)
 
 ---
 
-![](https://tuchuang.laji.blog/imgs/2020/08/456e2e5533b0414d.png)
+![Expected Effect 2](https://tuchuang.laji.blog/imgs/2020/08/a0303b7c587d8c82.png)
 
 ---
 
-![](https://tuchuang.laji.blog/imgs/2020/08/fa4f7cb8416914a0.png)
+![Expected Effect 3](https://tuchuang.laji.blog/imgs/2020/08/456e2e5533b0414d.png)
+
+---
+
+![Expected Effect 4](https://tuchuang.laji.blog/imgs/2020/08/fa4f7cb8416914a0.png)
